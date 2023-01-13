@@ -103,9 +103,34 @@ img {
 }
 .course-details {
   font-weight: 500;
-  font-size: 20.0336px;
-  margin: 30px 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
 .courses {
   display: flex;
+  gap: 30px;
+}
+.course {
+  box-shadow: 1px 1px 2px gainsboro;
+  border-radius: 5px;
+}
+.course-author {
+  color: red;
+  margin-bottom: 5px;
+}
+.filled {
+  color: #ffc014;
+}
+.empty {
+  color: #aeaeae;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.duration {
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
 }
